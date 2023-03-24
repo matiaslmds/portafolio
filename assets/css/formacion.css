@@ -1,0 +1,64 @@
+/*FORMACION ACADEMICA*/
+
+.formacion__academica{
+   
+    background-color: var(--background-primario);
+    padding: 60px 20px;
+
+}
+
+.container__formacion-academica{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.container__titulo {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.container__titulo h2 {
+    font-size: 2rem;
+}
+
+
+.container__formacion {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    padding: 40px 10px;
+    margin-top: 20px;
+    
+}
+
+.formacion {
+    margin-top: 20px;
+    border: 2px solid var(--background-secundario);
+    border-radius: 20px;
+    background-color: #ffffff;
+    transition: all 500ms;
+}
+
+.formacion:hover {
+    border: 2px solid transparent;
+    box-shadow: 10px 15px 20px  var(--background-secundario) ;
+   
+}
+
+.item__formacion h3 {
+    padding: 10px 20px;
+
+}
+
+.item__formacion p {
+   padding: 10px 20px;
+
+}
+.item__formacion img {
+    width: 360px;
+    height: 220px;
+    padding: 20px;
+
+}

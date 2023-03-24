@@ -1,0 +1,83 @@
+/* EXPERIENCIA PROFESIONAL*/  
+
+.experiencia__laboral{
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+    
+
+
+.container__proyectos {
+    max-width: 1200px;
+    margin: auto;
+     
+}
+
+.titulo__proyectos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titulo__proyectos h2 {
+    font-size: 2rem;
+}
+
+.proyectos{
+    margin-top: 40px;
+    
+}
+
+.items__proyectos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+
+}
+
+.items__proyectos h4 {
+    font-size: 1rem;
+    
+
+}
+.text__proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text__proyectos h4 {
+    margin: 0 20px;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+.text__proyectos p {
+    margin: 0 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.btn__proyectos{
+    display: flex;
+    padding: 10px 20px;   
+    
+}
+
+.btn__proyectos a {
+    color: #ffffff;
+    margin: 0 20px;
+    padding: 10px 30px;
+    background-color: var(--background-secundario);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 300ms;
+     
+}
+
+.btn__proyectos a:hover {
+    background-color: transparent;
+    border: 2px solid rgb(4, 77, 126);
+    color: rgb(4, 77, 126);
+}

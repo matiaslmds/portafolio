@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/inicio.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/formacion.css">
+    <link rel="stylesheet" href="./assets/css/proyectos.css">
     <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <script src =" https://kit.fontawesome.com/73f851add2.js " crossorigin =" anónimo " > </script>
     
 </head>
 
 <body>
-
-
     <header>
         <div class="container__header">
            <div class="logo">
@@ -24,12 +30,12 @@
             <nav>
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre Mi</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Hobbies</a></li>
-                    <li><a href="#">Formacion</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#sobre">Sobre Mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formacion</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
     
             </nav>
@@ -64,12 +70,10 @@
                 </section>
             </div>
         </div>
-
 <!-- SOBRE MI-->
-
-
-        <div class="container__sobre">
-            <h2 class="titulo__sobre">Sobre Mi</h2>
+        
+        <div class="container__sobre" id="sobre">
+            <h2 class="titulo__sobre" >Sobre Mi</h2>
             <p class="texto__sobre"> Hola, mi nombre es Matias y soy un desarrollador front-end apasionado por la tecnología y la innovación.
 
                 Me especializo en la creación de sitios web atractivos y funcionales que brinden una experiencia de usuario excepcional.
@@ -81,7 +85,7 @@
 
 <!-- SKILLS-->
 
-        <div class="container__skill container__card-primaria">
+        <div class="container__skill container__card-primaria" id="skills">
             <div class="skills card__primaria">
                 <div class="titulo__skills titulo__card-primaria">
                     <h2>Skills</h2>
@@ -125,7 +129,7 @@
     <!-- MIS HOBBIES-->
 
 
-    <div class="container__skill container__card-primaria-hob">
+    <div class="container__skill container__card-primaria-hobbies" id="hobbies">
         <div class="skills card__primaria">
             <div class="titulo__skills titulo__card-primaria">
                 <h2>Hobbies</h2>
@@ -167,7 +171,7 @@
     </div>
 
     <!-- FORMACION ACADEMICA--> 
-    <div class="formacion__academica">
+    <div class="formacion__academica" id="formacion">
         <div class="container__formacion-academica">
             <div class="container__titulo">
                 <h2>Formacion Academica</h2>
@@ -196,7 +200,7 @@
     </div>
     <!-- EXPERIENCIA PROFESIONAL--> 
 
-    <div class="experiencia__laboral">
+    <div class="experiencia__laboral" id="proyectos">
         <div class="container__proyectos">
             <div class="titulo__proyectos">
                 <h2>Experiencia Profesional</h2>
@@ -236,9 +240,11 @@
     <!--FORMULARIO DE CONTACTO-->
 
     
-    <div class="formulario__seccion">
-        <div class="formulario__titulo">
+    <div class="formulario__seccion" id="contacto">
+        <div class="formulario__texto">
             <h2> Contacto</h2>
+            <p>¿Queres contactarme?</p>
+            <p>Completa el formulario y me pondre en contacto lo antes posible.</p>
         </div>
         <div class="formulario__conteiner">
          <!-- FORMULARIO -->
@@ -308,11 +314,39 @@
     </div>
     
     </main>
+        
+    <footer>
+        <div class="container__footer">
     
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="./assets/imagenes/Logo.fw.png" alt="">
+                </div>
+                <div class="terms">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
+                </div>
+            </div>
+                        
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
 
-    
+            
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023 <b>Matias Lopez</b></p>
+        </div>
+    </footer>
+
     <script src="./assets/js/formulario.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/hamburguesa.js"></script>
     
 </body>
 </html>

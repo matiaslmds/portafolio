@@ -12,20 +12,34 @@
 
 
 /* -------------------------------------------- FORMULARIO ------------------------------------------*/
+
+#contacto{
+    padding-top: 40px;
+}
+
+
 .formulario__seccion{
     
     background-color: var(--background-primario);
     padding: 20px 0;
 }
 
-.formulario__titulo  {
+.formulario__texto {
     text-align: center;
     padding: 40px 0px;
 
 }
 
-.formulario__titulo h2 {
+.formulario__texto h2 {
     font-size: 2rem;
+  
+}
+
+.formulario__texto p {
+    
+    
+    margin-top: 10px;
+    font-size: 1.2rem;
   
 }
 

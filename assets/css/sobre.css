@@ -1,0 +1,22 @@
+/* SOBRE MI */
+
+.container__sobre{
+    max-width: 1200px;
+    padding: 50px 0;
+    background-color: #ffffff;
+    margin-top: 50px;
+    
+}
+
+.titulo__sobre {
+    font-size: 2rem;
+    padding: 50px 20px;
+   
+
+}
+
+.texto__sobre{
+    margin-top: 20px;   
+    color: #000000;
+    font-size: 1.3rem;
+}
