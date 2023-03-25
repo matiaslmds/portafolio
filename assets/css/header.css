@@ -140,12 +140,12 @@ header {
     .menu nav {
         position: fixed;
         top: 0;
-        right:  -300px;
-        background-color: #ffffff;
-        width: 300px;
+        left: -270px;
+        background-color:var(--background-primario);
+        width: 250px;
         height: 100vh;
         padding: 40px;
-        z-index: 100;
+        z-index: 10;
         transition: all 600ms;
 
     }
@@ -153,6 +153,7 @@ header {
     .menu ul {
         flex-direction: column;
         margin-top: 40px;
+        
     }
 
     .menu ul li {
@@ -171,7 +172,7 @@ header {
         display: none;
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         width: 100%;
         height: 100vh;
         background: rgba(0, 0, 0, 0.85);

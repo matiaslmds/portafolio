@@ -229,9 +229,14 @@
 
     .formulario__texto-contacto{
         display: flex;
-        justify-content: space-between;
+        width: 80%;       
 
     }
+    .formulario__texto-contacto p {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+
 
     .formulario {
         grid-template-columns: 1fr;

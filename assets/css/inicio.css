@@ -65,30 +65,60 @@
     border-radius: 100px;
 }
 
-
+/* -------------------------------------------- RESPONSIVE  --------------------------------------*/
 
 
 @media screen and (max-width:720px) {
 
+    .container__cover {
+        padding: 20px 0;
+    }
+
+
     .cover  {
         flex-direction: column-reverse;
+         
+            
+
+    }
+
+    .text__cover {
+        width: 100%;
+        padding-right:  10px;
         
-
     }
 
-    .image__cover  {
-       align-items: flex-start;
+    .text__cover h1 {
+        font-size: 2rem;
+        padding: 0px 0px 0px 10px;
+    
     }
+
+    .text__cover p {
+        font-size: 1.4rem;
+        padding: 0px 0px 0px 10px;
+    
+    }
+    
 
     .links__cover {
         display: flex;
-        justify-content: space-between;
+        width: 100%;
+        padding:  20px 5px;
+        
+        
+    }
+
+    .links__cover a {
+        font-size: 0.8rem;
+        padding: 7px;
     }
 
 
     .btn__text {
-        width: 30%;
-        height: 10%;
+        width: 40%;
+        height: 50%;
+        margin-top: 10px;
     }
 
     

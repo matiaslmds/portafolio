@@ -72,4 +72,11 @@
         flex-direction: column;
     }
 
+    .item__formacion img {
+        width: 288px;
+        height: 176px;
+        padding: 20px;
+    
+    }
+
 }

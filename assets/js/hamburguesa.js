@@ -1,8 +1,8 @@
 // -------------- MENU HAMBURGUESA ----------------------
 
-document.querySelector("#bars__menu").addEventListener("click", animateBars);
+document.querySelector("#bars__menu").addEventListener("click", animateBars,);
 
-document.getElementById("back__menu").addEventListener("click", ocultarMenu )
+document.getElementById("back__menu").addEventListener("click", ocultarMenu);
 
 var line1__bars = document.querySelector(".line1__bars-menu");
 var line2__bars = document.querySelector(".line2__bars-menu");
@@ -14,14 +14,18 @@ function animateBars() {
     line1__bars.classList.toggle("activeline1__bars-menu")
     line2__bars.classList.toggle("activeline2__bars-menu")
     line3__bars.classList.toggle("activeline3__bars-menu")
-    nav.style.right = "0px";
+    nav.style.left = "0px";
     backMenu.style.display = "block"
+    
 
 }
 
 function ocultarMenu (){
+    line1__bars.classList.remove("activeline1__bars-menu")
+    line2__bars.classList.remove("activeline2__bars-menu")
+    line3__bars.classList.remove("activeline3__bars-menu")
 
-    nav.style.right = "-300px";
+    nav.style.left = "-270px";
     backMenu.style.display = "none"
 
 
