@@ -34,7 +34,7 @@
 
 .links__cover {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -68,7 +68,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:720px) {
 
     .cover  {
         flex-direction: column-reverse;
@@ -78,6 +78,17 @@
 
     .image__cover  {
        align-items: flex-start;
+    }
+
+    .links__cover {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .btn__text {
+        width: 30%;
+        height: 10%;
     }
 
     

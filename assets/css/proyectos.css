@@ -81,3 +81,17 @@
     border: 2px solid rgb(4, 77, 126);
     color: rgb(4, 77, 126);
 }
+
+
+
+/* -------------------------------------------- RESPONSIVE  --------------------------------------*/
+
+@media screen and (max-width:720px) {
+
+
+.items__proyectos{
+   flex-direction: column;
+    
+}
+
+}

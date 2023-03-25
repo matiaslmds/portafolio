@@ -19,25 +19,28 @@
 
 
 .formulario__seccion{
+    display: flex;
     
     background-color: var(--background-primario);
     padding: 20px 0;
 }
 
 .formulario__texto {
+    background-color: var(--background-primario);
     text-align: center;
     padding: 40px 0px;
+    margin-top: 50px;
 
 }
 
 .formulario__texto h2 {
     font-size: 2rem;
+    margin-top: 50px;
   
 }
 
 .formulario__texto p {
-    
-    
+     
     margin-top: 10px;
     font-size: 1.2rem;
   
@@ -198,12 +201,44 @@
     
 }
 
+.formulario__texto-contacto {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.formulario__texto-contacto p {
+    font-size: 1.5rem;
+}
+
 
 /* -------------------------------------------- RESPONSIVE  --------------------------------------*/
 
 @media screen and (max-width:720px) {
+
+    .formulario__seccion {
+        flex-direction: column-reverse;
+    }
+
+    .formulario__texto {
+        display: flex;
+    }
+
+    .formulario__texto-contacto{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
     .formulario {
         grid-template-columns: 1fr;
+    }
+
+    .formulario__conteiner {
+        width: 90%;
     }
 
     .formulario__grupo-terminos, 

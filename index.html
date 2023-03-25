@@ -21,48 +21,58 @@
 
 <body>
     <header>
+        <!-- HEADER Y MENU DE NAVEGACION-->
+
         <div class="container__header">
            <div class="logo">
                 <img src="./assets/imagenes/Logo.fw.png" alt="logo nombre">    
            </div>
+
+           
     
            <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#sobre">Sobre Mi</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#formacion">Formacion</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
+                <div id="back__menu"></div>
+                    <nav id="nav">
+                        <img src="./assets/imagenes/Logo.fw.png" alt="logo nombre">    
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#sobre">Sobre Mi</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#formacion">Formacion</a></li>
+                            <li><a href="#proyectos">Proyectos</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
     
-            </nav>
-        </div>
+                    </nav>
+            </div>
+
+            <div id="bars__menu">
+                <span class="line1__bars-menu"></span>
+                <span class="line2__bars-menu"></span>
+                <span class="line3__bars-menu"></span>
+            </div>
         
         </div>
        
-        <div class="bars__menu">
-            <span class="line1__bars-menu"></span>
-            <span class="line2__bars-menu"></span>
-            <span class="line3__bars-menu"></span>
-        </div>
+       
     
     </header>
 
 
     <main>
+        <!-- PORTADA DE INICIO-->
+
         <div class="container__cover div__offset" >
             <div class="cover">
                 <section class="text__cover">
                     <h1>Hola mi nombre es Matias Lopez y soy Developer Front-End </h1>
                     <p>Soy formado de manera autodidacta y actualmente me encuentro participando del programa Oracle One en Alura Latam</p>
                     <div class="links__cover">
-                        <a href="#" class="btn__text-cover btn__text">Github ↗</a>
-                        <a href="#" class="btn__text-cover btn__text">Linkedin ↗</a>
-                        <a href="#" class="btn__text-cover btn__text">Instagram ↗</a></a>
-                        <a href="#" class="btn__text-cover btn__text">Curriculo ↗</a>
+                        <a href="https://github.com/matiaslmds" target="_blank" class="btn__text-cover btn__text">Github↗</a>
+                        <a href="https://www.linkedin.com/in/matias-lopez-76972511a/" target="_blank" class="btn__text-cover btn__text">Linkedin↗</a>
+                        <a href="https://www.instagram.com/renguito73" target="_blank" class="btn__text-cover btn__text">Instagram↗</a></a>
+                        <a href="#" class="btn__text-cover btn__text">Curriculo↗</a>
                     </div>
                 </section>
                 <section class="image__cover">
@@ -207,6 +217,7 @@
             </div>
             <div class="proyectos">
                 <div class="items__proyectos">
+                    <img src="./assets/imagenes/barberiaAlura.fw.png" alt="imagen pagina web barberia alura">
                     <div class="text__proyectos">
                         <h4>Barberia Alura</h4>
                         <p>Proyecto de barberia Alura</p>
@@ -216,7 +227,7 @@
                         </div>
                         
                     </div>    
-                 <img src="./assets/imagenes/barberiaAlura.fw.png" alt="imagen pagina web barberia alura">
+                    
                 </div>
             </div>
             <div class="proyectos">
@@ -239,19 +250,18 @@
 
     <!--FORMULARIO DE CONTACTO-->
 
-    
-    <div class="formulario__seccion" id="contacto">
-        <div class="formulario__texto">
-            <h2> Contacto</h2>
-            <p>¿Queres contactarme?</p>
-            <p>Completa el formulario y me pondre en contacto lo antes posible.</p>
-        </div>
+    <div class="formulario__texto" id="contacto">
+        <h2> Contacto</h2>
+        
+    </div>
+    <div class="formulario__seccion" >
+        
         <div class="formulario__conteiner">
          <!-- FORMULARIO -->
             <form action="#" class="formulario" id="formulario">
         
         
-        <!-- GRUPO DE NOMBRE-->
+         <!-- GRUPO DE NOMBRE-->
                 <div class="formulario__grupo" id="grupo__nombre">
                     <label class="formulario__label">Nombre y Apellido</label>
                     <div class="formulario__grupo-input">
@@ -263,7 +273,7 @@
 
         
 
-        <!-- GRUPO DE EMAIL -->
+         <!-- GRUPO DE EMAIL -->
                 <div class="formulario__grupo" id="grupo__correo">
                     <label class="formulario__label">Correo Electonico</label>
                     <div class="formulario__grupo-input">
@@ -271,19 +281,17 @@
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
                     <p class="formulario__input-error">El correo debe tener mÍnimo 4 caracteres y sólo se admiten números, letras y guión bajo.</p>
-                </div>
-
-       
+                </div>       
 
           <!-- GRUPO DE ASUNTO-->
-          <div class="formulario__grupo" id="grupo__asunto">
-            <label class="formulario__label">Asunto</label>
-            <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="asunto" id="asunto" placeholder="Asunto">
-                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+             <div class="formulario__grupo" id="grupo__asunto">
+              <label class="formulario__label">Asunto</label>
+              <div class="formulario__grupo-input">
+                  <input type="text" class="formulario__input" name="asunto" id="asunto" placeholder="Asunto">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
             <p class="formulario__input-error">El asunto debe tener minimo 4 caracteres y solo se admiten números, letras y guión bajo.</p>
-        </div>   
+        </div> 
      
 
         <!-- GRUPO DE MENSAJE-->
@@ -294,13 +302,12 @@
                 <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
             <p class="formulario__input-error">El nombre debe tener minimo 4 caracteres y solo se admiten números, letras y guión bajo.</p>
-        </div>   
+        </div>
         
         <!-- MENSAJE DE CAMPOS REQUERIDOS -->
                 <div class="formulario__mensaje" id="formulario__mensaje">
                     <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
                 </div>
-
 
         <!-- GRUPO ENVIAR -->
                 <div class="formulario__grupo formulario__grupo-btn-enviar">
@@ -308,8 +315,15 @@
                     <input class="formulario__btn" type="submit" value="ENVIAR">
                 </div>
             </form>
+
+        
             
         </div>
+        <div class="formulario__texto-contacto">
+            <p>¿Queres contactarme?</p>
+            <p>Completa el formulario y me pondre en contacto lo antes posible.</p>
+            <img src="/assets/imagenes/contacto-fondo.png" alt="fondo de contacto">
+        </div>   
     
     </div>
     
@@ -323,19 +337,16 @@
                     <img src="./assets/imagenes/Logo.fw.png" alt="">
                 </div>
                 <div class="terms">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
+                    <p>Gracias por visitar mi portafolio! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo a través del formulario de contacto o en las redes sociales</p>
                 </div>
-            </div>
-                        
+            </div>                        
             <div class="box__footer">
                 <h2>Redes Sociales</h2>
                 <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-            </div>
-
-            
+                <a href="https://twitter.com/Matias_LMDS73" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="https://www.linkedin.com/in/matias-lopez-76972511a/" target="_blank""><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="https://www.instagram.com/renguito73" target="_blank""><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>            
 
         </div>
 

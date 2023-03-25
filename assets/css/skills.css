@@ -62,3 +62,16 @@
     padding: 30px;
     width: 150px;
 }
+
+
+
+/* -------------------------------------------- RESPONSIVE  --------------------------------------*/
+
+@media screen and (max-width:720px) {
+
+    .container__box-cardPrimaria {
+        justify-content: space-around;
+    }
+
+
+}
