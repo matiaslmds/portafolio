@@ -15,7 +15,8 @@ function animateBars() {
     line2__bars.classList.toggle("activeline2__bars-menu")
     line3__bars.classList.toggle("activeline3__bars-menu")
     nav.style.left = "0px";
-    backMenu.style.display = "block"
+    backMenu.style.display = "block";
+    
     
 
 }
