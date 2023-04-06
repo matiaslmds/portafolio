@@ -140,11 +140,12 @@ header {
     .menu nav {
         position: fixed;
         top: 0;
-        left: -270px;
+        left: -50%;
         background-color:var(--background-primario);
-        width: 250px;
+        width: 50vw;
         height: 100vh;
-        padding: 40px;
+        margin: 0;
+        padding: 40px ;
         z-index: 10;
         transition: all 600ms;
 

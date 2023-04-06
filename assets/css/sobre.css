@@ -16,7 +16,8 @@
 }
 
 .texto__sobre{
-    margin-top: 20px;   
+    margin-top: 20px;
+    margin-left: 20px;   
     color: #000000;
     font-size: 1.3rem;
 }
