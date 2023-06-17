@@ -134,15 +134,16 @@ header {
 
     .menu img {
         display: flex;
+        justify-content: center;
     
     }
 
     .menu nav {
         position: fixed;
         top: 0;
-        left: -50%;
+        left: -70%;
         background-color:var(--background-primario);
-        width: 50vw;
+        width: 70vw;
         height: 100vh;
         margin: 0;
         padding: 40px ;
@@ -153,6 +154,7 @@ header {
 
     .menu ul {
         flex-direction: column;
+        align-items: center;
         margin-top: 40px;
         
     }

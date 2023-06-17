@@ -20,7 +20,7 @@ function animateBars() {
           
         if (backMenu.style.display == "block") {
             backMenu.style.display = "none" ;
-            nav.style.left = "-52%";
+            nav.style.left = "-70%";
             
         } else {
             backMenu.style.display = "block";
@@ -37,7 +37,7 @@ function ocultarMenu (){
     line2__bars.classList.remove("activeline2__bars-menu")
     line3__bars.classList.remove("activeline3__bars-menu")
 
-    nav.style.left = "-52%";
+    nav.style.left = "-70%";
     backMenu.style.display = "none"
 
 
